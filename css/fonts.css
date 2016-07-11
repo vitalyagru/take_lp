@@ -1,0 +1,95 @@
+/* font-family: "OpenSansRegular"; */
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "OpenSansLight"; */
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot");
+    src: url("../fonts/OpenSansLight/OpenSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"),
+    url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+@font-face {
+font-family: 'Merriweather Heavy';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Heavy'), url('../fonts/marriweather/Merriweather-Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Light';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Light'), url('../fonts/marriweather/Merriweather-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather'), url('../fonts/marriweather/Merriweather-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Bold'), url('../fonts/marriweather/Merriweather-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Bold Italic'), url('../fonts/marriweather/Merriweather-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Heavy Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Heavy Italic'), url('../fonts/marriweather/Merriweather-HeavyItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Italic'), url('../fonts/marriweather/Merriweather-Italic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Merriweather Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Merriweather Light Italic'), url('../fonts/marriweather/Merriweather-LightItalic.woff') format('woff');
+}

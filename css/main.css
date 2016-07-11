@@ -1,0 +1,46 @@
+@import url('fonts.css');
+/*font-family: "OpenSansLight";
+font-family: "OpenSans";
+font-family: 'Merriweather Heavy Italic';*/
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  background: url("../img/header_bg.png") 50% no-repeat;
+  height: 940px;
+}
+
+.header-logo {
+  padding-top: 55px;
+}
+
+.header-logo img {
+  vertical-align: middle;
+}
+.logo {
+  font-size: 20.8px;
+  font-family: 'Merriweather Heavy Italic';
+  color: #fff;
+}
+
+.header-content {
+  margin-top: 400px;
+}
+
+.header-content-picture {
+  font-family: "OpenSansLight";
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.header-content-main {
+  width: 450px;
+  font-family: "OpenSans";
+  font-size: 14px;
+  color: #fff;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
