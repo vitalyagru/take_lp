@@ -46,7 +46,7 @@ header {
   font-family: "OpenSans";
   font-size: 14px;
   color: #fff;
-  line-height: 20px;
+  line-height: 24px;
   padding: 10px 0;
 }
 
@@ -86,7 +86,7 @@ header {
   font-size: 14px;
   color: #959595;
   padding-top: 35px;
-  line-height: 20px;
+  line-height: 24px;
 }
 .slide {
   position: absolute;
@@ -118,15 +118,31 @@ header {
 }
 .row-article li p {
   font-family: "OpenSans";
-  font-size: 13px;
+  font-size: 15px;
   color: #fff;
+  line-height: 24px;
+  width: 318px;
+  margin: 35px 0 45px;
 }
 .row-article li a {
   font-family: "OpenSansBold";
   font-size: 13px;
   color: #fff;
+  text-decoration: none;
 }
 
+.row-article li a:hover {
+  text-decoration: underline;
+}
+
+.row-article li a:after {
+  content: "→";
+  margin: 10px;
+}
+
+.article-content {
+  margin: 40px;
+}
 .first-article {
   background-color: #f5989d;
 }
@@ -137,4 +153,35 @@ header {
 
 .third-article {
   background-image: url("../img/third-article_bg.png");
+}
+
+li.fourth-article {
+  background-image: url("../img/fourth-article_bg.png");
+  width: 780px;
+  position: relative;
+  top: -24px;
+}
+
+li.fourth-article p {
+  width: 480px;
+}
+
+li.fourth-article a {
+  position: relative;
+  top: 25px;
+}
+li.third-article {
+  position: relative;
+}
+
+.fifth-article {
+  background-color: #82ca9c;
+}
+
+.like {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  bottom: 25px;
+  right: 40px;
 }

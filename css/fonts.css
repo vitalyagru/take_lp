@@ -81,7 +81,7 @@ src: local('Merriweather Bold Italic'), url('../fonts/marriweather/Merriweather-
 font-family: 'Merriweather Heavy Italic';
 font-style: normal;
 font-weight: normal;
-src: local('Merriweather Heavy Italic'), url('../fonts/marriweather/Merriweather-HeavyItalic.woff') format('woff');
+src: local('Merriweather Heavy Italic'), url('../fonts/merriweather/Merriweather-HeavyItalic.woff') format('woff');
 }
 
 
