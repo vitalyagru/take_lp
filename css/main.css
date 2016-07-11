@@ -1,7 +1,8 @@
 @import url('fonts.css');
 /*font-family: "OpenSansLight";
 font-family: "OpenSans";
-font-family: 'Merriweather Heavy Italic';*/
+font-family: 'Merriweather Heavy Italic';
+font-family: "OpenSansBold";*/
 * {
   font-size: 0;
 }
@@ -59,9 +60,19 @@ header {
 .left,
 .rigth {
   display: inline-block;
-  width: 49%;
+  width: 555px;
   margin-top: 115px;
   position: relative;
+}
+
+.rigth {
+  margin-left: 15px;
+  top: -40px;
+  left: 0;
+}
+
+.left {
+  margin-right: 15px;
 }
 
 .begin-new h2 {
@@ -79,7 +90,51 @@ header {
 }
 .slide {
   position: absolute;
-  top: -900px;
+  top: -925px;
   left: 0;
   z-index: 2;
+}
+
+.second-content {
+  margin: 90px 0;
+  height: 555px;
+}
+
+.row-article {
+  height: 50%;
+  font-size: 0;
+}
+
+.row-article li {
+  display: inline-block;
+  width: 390px;
+  height: 100%;
+}
+
+.row-article li h3 {
+  font-family: "OpenSansLight";
+  font-size: 30px;
+  color: #fff;
+}
+.row-article li p {
+  font-family: "OpenSans";
+  font-size: 13px;
+  color: #fff;
+}
+.row-article li a {
+  font-family: "OpenSansBold";
+  font-size: 13px;
+  color: #fff;
+}
+
+.first-article {
+  background-color: #f5989d;
+}
+
+.second-article {
+  background-color: #615f7d;
+}
+
+.third-article {
+  background-image: url("../img/third-article_bg.png");
 }

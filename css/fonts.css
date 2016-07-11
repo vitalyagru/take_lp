@@ -18,7 +18,13 @@
     font-style: normal;
     font-weight: normal;
 }
-
+/* font-family: "OpenSansBold"; */
+@font-face {
+    font-family: "OpenSansBold";
+    src: local('Open Sans Bold'), local('OpenSans-Bold'), url('../fonts/OpenSansBold/opensansbold.woff2') format('woff2'), url('../fonts/OpenSansBold/opensansbold.woff') format('woff'), url('../fonts/OpenSansBold/opensansbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
 /* font-family: "MyriadProRegular"; */
 @font-face {
     font-family: "MyriadProRegular";
