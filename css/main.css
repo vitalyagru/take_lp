@@ -2,7 +2,8 @@
 /*font-family: "OpenSansLight";
 font-family: "OpenSans";
 font-family: 'Merriweather Heavy Italic';
-font-family: "OpenSansBold";*/
+font-family: "OpenSansBold";
+font-family: 'OpenSansSemibold';*/
 * {
   font-size: 0;
 }
@@ -58,14 +59,14 @@ header {
 }
 
 .left,
-.rigth {
+.right {
   display: inline-block;
   width: 555px;
   margin-top: 115px;
   position: relative;
 }
 
-.rigth {
+.right {
   margin-left: 15px;
   top: -40px;
   left: 0;
@@ -96,7 +97,7 @@ header {
 }
 
 .second-content {
-  margin: 90px 0;
+  margin: 90px 0 100px;
   height: 555px;
 }
 
@@ -184,4 +185,118 @@ li.third-article {
   position: absolute;
   bottom: 25px;
   right: 40px;
+}
+
+.third-content {
+  margin-bottom: 160px;
+}
+
+.third-content-header {
+  font-family: "OpenSansLight";
+  font-size: 35px;
+  color: #222626;
+  margin-bottom: 70px;
+}
+
+.column {
+  display: inline-block;
+  width: 267px;
+  margin-right: 30px;
+}
+.column:last-child {
+  margin-right: 0;
+}
+.column-header {
+  font-family: 'OpenSansSemibold';
+  font-size: 14px;
+  color: #67676d;
+  margin-bottom: 30px;
+}
+
+.column-content {
+  font-family: 'OpenSans';
+  font-size: 16px;
+  line-height: 24px;
+  color: #959595;
+}
+/*------Begin-new-styles-end------*/
+
+/*-----Article-pixel-styles------*/
+
+.pixel {
+  height: 870px;
+  background: url("../img/pixel_bg.jpg") 50% no-repeat;;
+}
+
+.pixel h2 {
+  font-family: "OpenSansLight";
+  font-size: 60px;
+  color: #fff;
+  width: 520px;
+  padding-top: 460px;
+  padding-bottom: 45px;
+}
+
+.pixel p {
+  font-family: "OpenSans";
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
+.pixel a {
+  font-family: "OpenSansBold";
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pixel a:hover {
+  text-decoration: underline;
+}
+
+.pixel a:after {
+  content: "→";
+  margin: 10px;
+}
+
+/*------Article-pixel-styles-end------*/
+
+/*-----Reasons-styles------*/
+
+.reasons {
+  height: 535px;
+  background-color: #82ca9c;
+}
+
+.main-header-reasons {
+  padding-top: 135px;
+  padding-bottom: 65px;
+  font-family: "OpenSansLight";
+  font-size: 35px;
+  color: #fff;
+}
+
+.column-reasons {
+  width: 367px;
+}
+
+.reasons h3,
+.reasons p {
+  color: #fff;
+}
+
+
+/*------Reasons-styles-end------*/
+
+/*-----Buy-styles------*/
+
+.buy {
+  height: 625px;
+  background-color: #f6f7fa;
+}
+.buy .right {
+  position: static;
 }

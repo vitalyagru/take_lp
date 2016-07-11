@@ -25,6 +25,13 @@
     font-weight: 700;
     font-style: normal;
 }
+/* font-family: "OpenSansSemibold"; */
+@font-face {
+    font-family: 'OpenSansSemibold';
+    src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('../fonts/OpenSansSemibold/opensanssemibold.woff2') format('woff2'), url('../fonts/OpenSansSemibold/opensanssemibold.woff') format('woff'), url('../fonts/OpenSansSemibold/opensanssemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 /* font-family: "MyriadProRegular"; */
 @font-face {
     font-family: "MyriadProRegular";
