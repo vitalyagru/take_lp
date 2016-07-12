@@ -380,3 +380,101 @@ li.third-article {
 .content-most-popular {
   width: 385px;
 }
+
+/*------Buy-styles-end------*/
+
+/*-----Footer-styles------*/
+
+footer {
+  height: 610px;
+  background-color: #192431;
+}
+
+footer .right {
+  top: -200px;
+  left: 100px;
+}
+
+.footer-main-content {
+  margin-bottom: 75px;
+}
+
+.footer-header {
+  font-family: 'OpenSansSemibold';
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-content {
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 24px;
+  color: #f6f7fa;
+}
+
+.footer-column {
+  display: inline-block;
+  padding-right: 100px;
+}
+
+.footer-column:last-child {
+  padding-right: 0px;
+}
+
+.footer-column-content li{
+  font-family: 'OpenSans';
+  font-size: 14px;
+  line-height: 24px;
+  color: #f6f7fa;
+}
+
+.footer-column-content li a {
+  text-decoration: none;
+  color: #f6f7fa;
+}
+
+.footer-column-content li a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  height: 50px;
+  width: 470px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+
+.text-contact-form {
+  display: inline-block;
+  width: 400px;
+  height: 50px;
+  background-color: #f6f7fa;
+  font-size: 14px;
+  color: black;
+  border: 0;
+}
+
+.contact-form-yes {
+  display: inline-block;
+  width: 70px;
+  height: 50px;
+  background-color: #82ca9c;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 0;
+}
+.contact-form-yes:hover {
+  background-color: #4bc778;
+}
+
+.signature {
+  font-size: 12px;
+  color: #57697f;
+  line-height: 18px;
+  width: 300px;
+}
