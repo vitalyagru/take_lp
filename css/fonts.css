@@ -32,6 +32,13 @@
     font-weight: 600;
     font-style: normal;
 }
+/* font-family: "OpenSansExtrabold"; */
+@font-face {
+    font-family: 'OpenSansExtrabold';
+    src: local('Open Sans Extrabold'), local('OpenSans-Extrabold'), url('../fonts/OpenSansExtrabold/opensansextrabold.woff2') format('woff2'), url('../fonts/OpenSansExtrabold/opensansextrabold.woff') format('woff'), url('../fonts/OpenSansExtrabold/opensansextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
 /* font-family: "MyriadProRegular"; */
 @font-face {
     font-family: "MyriadProRegular";

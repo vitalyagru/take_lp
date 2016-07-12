@@ -3,7 +3,8 @@
 font-family: "OpenSans";
 font-family: 'Merriweather Heavy Italic';
 font-family: "OpenSansBold";
-font-family: 'OpenSansSemibold';*/
+font-family: 'OpenSansSemibold';
+font-family: "OpenSansExtrabold";*/
 * {
   font-size: 0;
 }
@@ -299,4 +300,83 @@ li.third-article {
 }
 .buy .right {
   position: static;
+  margin-top: 70px;
+}
+
+.legasy {
+  width: 375px;
+}
+
+.teg {
+  font-family: "OpenSansExtrabold";
+  font-size: 11px;
+  color: #fff;
+  width: 80px;
+  height: 27px;
+  background-color: #e1e1e1;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.header-buy {
+  padding: 25px 0 30px;
+  font-family: "OpenSansLight";
+  font-size: 30px;
+  color: #2e3b4e;
+}
+
+.buy-content {
+  font-family: 'OpenSans';
+  font-size: 14.7px;
+  line-height: 24px;
+  color: #8297a7;
+  margin-bottom: 30px;
+}
+
+.button-buy {
+  display: block;
+  width: 155px;
+  height: 35px;
+  background-color: #82ca9c;
+  font-family: "OpenSansBold";
+  font-size: 13px;
+  color: #fff;
+  line-height: 35px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.button-buy:hover {
+  background-color: #91caa5;
+  box-shadow: 1px 2px 3px #bdbdbd;
+}
+.icons {
+  position: relative;
+}
+
+.windows {
+  position: absolute;
+  bottom: 0;
+  left: 35px;
+}
+.most-popular {
+  width: 515px;
+  height: 370px;
+  padding-top: 45px;
+  padding-left: 55px;
+  background-color: #fff;
+  box-shadow: 2px 2px 80px #ebecef;
+}
+.teg-most-popular {
+  width: 110px;
+  background-color: #bd8cbf;
+}
+
+.content-most-popular {
+  width: 385px;
 }
