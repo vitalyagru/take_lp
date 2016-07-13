@@ -1,13 +1,5 @@
 @import url('fonts.css');
-/*font-family: "OpenSansLight";
-font-family: "OpenSans";
-font-family: 'Merriweather Heavy Italic';
-font-family: "OpenSansBold";
-font-family: 'OpenSansSemibold';
-font-family: "OpenSansExtrabold";*/
-* {
-  font-size: 0;
-}
+
 /*------Header-styles------*/
 
 header {
@@ -42,7 +34,7 @@ header {
 .header-content-main {
   max-width: 450px;
   font-family: "OpenSans";
-  font-size: 14px;
+  font-size: 13px;
   color: #fff;
   line-height: 24px;
   padding: 10px 0;
@@ -212,7 +204,7 @@ li.third-article {
 
 .column-content {
   font-family: 'OpenSans';
-  font-size: 16px;
+  font-size: 12px;
   line-height: 24px;
   color: #959595;
 }
@@ -236,7 +228,7 @@ li.third-article {
 
 .pixel p {
   font-family: "OpenSans";
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
   color: #fff;
   max-width: 500px;
@@ -329,7 +321,7 @@ li.third-article {
 
 .buy-content {
   font-family: 'OpenSans';
-  font-size: 14.7px;
+  font-size: 12.7px;
   line-height: 24px;
   color: #8297a7;
   margin-bottom: 30px;
@@ -406,7 +398,7 @@ h2.footer-header {
 
 .footer-content {
   font-family: 'OpenSans';
-  font-size: 14px;
+  font-size: 12px;
   line-height: 24px;
   color: #f6f7fa;
 }
@@ -417,7 +409,7 @@ h2.footer-header {
 
 .footer-column-content li{
   font-family: 'OpenSans';
-  font-size: 14px;
+  font-size: 13px;
   line-height: 24px;
   color: #f6f7fa;
 }
@@ -467,7 +459,7 @@ h2.footer-header {
 }
 
 .signature {
-  font-size: 12px;
+  font-size: 10.5px;
   color: #57697f;
   line-height: 18px;
   max-width: 300px;
